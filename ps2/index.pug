@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    title= 'PS2'
+  body
+    block content
+      if string === 'mango'
+        h1 GET testing: #{string}
+      else if string != null
+        h1 GET testing: #{string}
+      else if string2 != null
+        h1 POST testing:
+        h2 - original string: #{string2}
+        h2 - length: #{len}
